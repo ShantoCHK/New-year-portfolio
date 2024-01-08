@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 .header-part {
   /* background-image: url(resources/Banner\ Image.png); */
   width: 1320px;
@@ -17,7 +20,7 @@
 
 .header-h1 {
   font-size: 2rem;
-  margin-left: 29% !important;
+  margin-left: 28% !important;
 }
 
 .header-h2 {
@@ -27,7 +30,7 @@
 .new {
   font-size: 5rem;
   text-align: center;
-  margin-left: 13% !important;
+  margin-left: 4% !important;
 }
 
 .header-h1,
@@ -182,7 +185,11 @@ div p {
   gap: 0px;
 }
 .join {
-  background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   width: 1320px;
   height: 482px;
   flex-shrink: 0;
@@ -254,6 +261,10 @@ section .join p {
   padding: 0px;
   text-align: left;
 }
+.img {
+  margin-left: 3%;
+}
+
 .sixpic {
   width: 424px;
   height: 450px;
@@ -262,61 +273,94 @@ section .join p {
   background: url(resources/Rectangle\ 3.png),
     lightgray 0px -35.755px / 100% 142.115% no-repeat;
   display: flex;
-  margin: 0px;
   padding: 0px;
-  gap: 0px;
-  margin-left: 34px;
-  margin-top: 0px;
+  gap: 10px;
+  margin-left: 3%;
+  margin-right: 5%;
+  /* margin-top: 0px; */
 }
 
-section .nav{
-  width: 150px;
-height: 150px;
-flex-shrink: 0;
-}
-.nav{
+.msg {
+  width: 1320px;
+  height: 616px;
   border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
-width: 1320px;
-height: 616px;
-flex-shrink: 0;
+  background: rgba(255, 0, 0, 0.05);
+  margin-top: 6%;
+  padding-top: 8%;
+  position: center;
 }
-
-.Newsletter{
-  color: black;
-  margin-top: 60px;
+.msg img {
+  padding-left: 0%;
 }
-/* .Dolor{
-  width: 896px;
-  color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-
-
-span .Dolor{
-  color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; /* 160% */
-}
-
-/* padding-left: 160px; */
-
-/* .Dolor br{
-  padding-left: 160px;
-} */
-/* nav{
+.msg p {
   text-align: center;
+  margin-right: 11%;
+}
+.msg button {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  margin-left: 25%;
+}
+
+footer {
+  background: #070211;
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  color: #fff;
+}
+/* footer div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 100px;
+  margin-top: 10px;
+} */
+footer div {
+  display: flex;
+}
+.address {
+  margin-top: 120px;
+  margin-left: 140px;
+}
+.call {
+  margin-top: 116px;
+  margin-left: 550px;
+  margin-right: 275px;
+}
+/* footer hr {
+  width: 1600px;
+  height: 609px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.15);
+  margin-left: 140px; 
+  margin-right: 0%;
+  margin-bottom: 200%;
 } */
 
-/* span .Dolor{
-  text-align: center;
-  margin-left: 70px;
-} */
+footer .four{
+  gap: 10px;
+  margin-left: 520px;
+  margin-top: 94px;
+
+}
+.copyright{
+  display: flex-inline;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.copy{
+  margin-top: 65px;
+  margin-right:100px;
+  margin-left:130px;
+  display: inline;
+}
+.right{
+  margin-top: 65px;
+  margin-left: 580px;
+  /* margin-right: 2075px; */
+  margin-bottom: 120px;
+}
