@@ -80,17 +80,17 @@ h3 {
   flex-shrink: 0;
   padding: 20px;
   text-align: center;
-  margin: 80px auto; 
+  margin: 80px auto;
 }
-.j-section b{
-    color: #F00;
+.j-section b {
+  color: #f00;
 
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 100;
-line-height: 34px; /* 175% */
-text-transform: capitalize;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 34px; /* 175% */
+  text-transform: capitalize;
 }
 
 .j-section p {
@@ -113,16 +113,17 @@ text-transform: capitalize;
   color: #fff;
   text-align: center;
   font-family: Inter;
-  font-size: 11px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-transform: uppercase;
   margin-top: 4%;
+  margin-right: 4px;
 }
-.jio{
-    margin-top: 6%;
-    text-align: center;
+.jio {
+  margin-top: 6%;
+  text-align: center;
 }
 
 h4 {
@@ -197,6 +198,17 @@ body section {
   text-align: left;
   padding-left: 126px;
   padding-top: 126px;
+}
+.party span{
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin: 10px;
 }
 div p {
   color: rgba(255, 255, 255, 0.8);
@@ -349,8 +361,44 @@ section .join p {
   border-radius: 50px;
   background: #fff;
   margin-left: 25%;
+  border-color: white;
+}
+.subs {
+  width: 190px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  margin-left: 313px;
+
+}
+button {
+  margin-top: 30px; 
 }
 
+
+/* button .subs {
+  
+} */
+
+.subs{
+  text-align: center;
+  /* padding-top: 14px; */
+  font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 100px;
+color: white;
+}
+
+/* color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 150;
+line-height: normal;
+text-transform: capitalize; */
 footer {
   background: #070211;
   width: 1600px;
