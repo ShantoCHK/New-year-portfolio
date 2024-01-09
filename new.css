@@ -69,20 +69,62 @@ h3 {
   padding: 0px;
   gap: 0px;
 }
-/* .new{
-  font-size: 1.5rem !important;
-  margin-bottom: 10px;
-  color: rgb(255, 255, 255);
+.j-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  padding: 20px;
   text-align: center;
-
-} */
-section {
-  padding: 0px;
-  margin: 0px;
+  margin: 80px auto; 
 }
-/* select:hover{
-  filter: brightness(80%);
-} */
+.j-section b{
+    color: #F00;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: 34px; /* 175% */
+text-transform: capitalize;
+}
+
+.j-section p {
+  color: black;
+  margin: 6px 0;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10.5%;
+}
+
+.j-button {
+  display: inline-flex;
+  padding: 13px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 1%;
+}
+.jio{
+    margin-top: 5%;
+    text-align: center;
+}
+
 h4 {
   color: #f00;
   text-align: center;
@@ -500,4 +542,3 @@ footer .four {
   font-weight: 500;
   line-height: 32px; /* 160% */
 }
-
